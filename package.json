@@ -1,16 +1,20 @@
 {
   "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "autoprefixer": "^10.4.16",
+    "path": "^0.12.7",
+    "postcss": "^8.4.31",
     "svelte": "^4.0.5",
+    "svelte-preprocess": "^5.0.4",
+    "svelte-preprocess-sass": "^2.0.1",
     "vite": "^4.4.5"
   }
 }
