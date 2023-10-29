@@ -8,7 +8,7 @@
 
 <Core {options}>
 	<Middleware>
-		<Router configRouter={pages}>
+		<Router configRouter={pages} options={options}>
 			<slot />
 		</Router>
 	</Middleware>
